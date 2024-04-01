@@ -114,3 +114,27 @@ padding: 0px 10px;
 .footer{
   padding: 20px 8%;
 }
+
+
+
+/* --------------------------------- small scrin------------------------ */
+
+@media screen and (max-width: 600px) {
+
+  .container{
+  text-align: center;
+  width:90%;
+  }
+  .container img{
+  max-width: 100%;
+  height: auto; 
+  }
+  
+  }
+  
+  @media only screen and (min-width: 601px) {
+    .features .container{
+      display: flex;
+      padding: 20px 0;
+    }
+  }
