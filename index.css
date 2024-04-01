@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image:url(Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header .logo-btn{
+  width: 150px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: left;
+  font-size: medium;
+}
+
+.logo-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .login-btn{
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: right;
+}
+
+.header h1{
+  padding-top: 200px;
+  padding-bottom: 0;
+  font-size: 50px;
+}
+
+.header p{
+  margin:18px 0;
+}
+
+.header .nav-bar{
+  padding: 0 20%;
+  display: flex;
+}
+
+.nav-bar .My-btn{
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+/* -----------------------------Features---------------------------- */
+
+.features{
+padding: 100px 0;
+}
+
+.features h1{
+text-align: center;
+padding-bottom: 30px;
+}
+
+.features .container{
+  display: flex;
+  padding: 20px 0;
+}
+
+.container img{
+width: 400px;
+}
+
+.features p{
+padding: 0px 10px;
+}
+
+/* ------------------------------------------Memorise-------------------------------------- */
+
+.My-gallery h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.My-gallery {
+  padding: 10px 0;
+}
+
+.My-gallery .My-container{
+  padding: 30px 8%;
+}
+
+.My-container .card-img-top{
+  width: 100%;
+}
+
+/* ------------------------------------------Footer-------------------------------------- */
+
+.footer{
+  padding: 20px 8%;
+}
